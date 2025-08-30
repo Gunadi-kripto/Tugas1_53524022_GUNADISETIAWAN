@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Diri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .biodata {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .data {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .data table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .data td {
+      padding: 8px 5px;
+      vertical-align: top;
+    }
+
+    .foto {
+      flex: 0 0 200px;
+      text-align: center;
+    }
+
+    .foto img {
+      width: 180px;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+    }
+
+    @media (max-width: 600px) { 
+      .biodata {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .foto {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Biodata Diri</h1>
+    <div class="biodata">
+      <div class="data">
+        <table>
+          <tr><td><b>NIM</b></td><td>: 535240022</td></tr>
+          <tr><td><b>Kelas</b></td><td>: TI A 2024</td></tr>
+          <tr><td><b>Jurusan</b></td><td>: Teknik Informatika</td></tr>
+          <tr><td><b>Tempat/Tgl Lahir</b></td><td>: Jakarta, 28 Agustus 2006</td></tr>
+          <tr><td><b>Agama</b></td><td>: buddha</td></tr>
+          <tr><td><b>Alamat</b></td><td>: Jln kapuk kebon jahe</td></tr>
+          <tr><td><b>Telepon</b></td><td>: 087874963104</td></tr>
+          <tr><td><b>Email</b></td><td>: edward.stiawan28@gmail.com</td></tr>
+        </table>
+      </div>
+      <div class="foto">
+        <img src="FOTO_DIRI.jpeg" alt="Foto Diri">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- @media buat bantu ngerapiin layout agar di pc atau hp tidak berantakan(teks dan gmabr g kepotong)-->
